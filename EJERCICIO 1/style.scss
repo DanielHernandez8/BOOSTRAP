@@ -1,0 +1,23 @@
+@import '../node_modules/bootstrap/scss/bootstrap.scss'; 
+@include media-breakpoint-down(sm) {
+    body{
+        background-color: yellow;
+    }
+}
+@include media-breakpoint-up(sm) {
+    body{
+        background-color: red;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    body{
+        background-color: green;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    body{
+        background-color: blue;
+    }
+}
